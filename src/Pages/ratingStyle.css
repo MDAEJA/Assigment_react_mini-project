@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rating-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightslategray;
+    height: 100vh;
+}
+.rating-div{
+    border: 2px solid whitesmoke;
+    padding: 20px 20px;
+    width: 20%;
+    /* height: 40%; */
+    border-radius: 10px;
+}
+.rating{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.rating-div input{
+    display: none;
+}
+.star{
+    font-size: 50px;
+    color: #ccc;
+    cursor: pointer;
+}
+.rating label:hover,
+.rating label:hover ~ label{
+    color:  #ffcc00;
+}
+.rating input[type='radio']:checked ~ label {
+    color: #ffcc00; /* Color when checked */
+  }

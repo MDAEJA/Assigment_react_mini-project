@@ -1,0 +1,31 @@
+.accordion-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .accordion-container label {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .accordion-title {
+    padding: 16px;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-content {
+    padding: 16px;
+    background-color: #fff;
+  }
+  

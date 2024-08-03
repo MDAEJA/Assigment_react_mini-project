@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10%;
+    font-family: 'Arial', sans-serif;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.main-div-dark {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10%;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px inset whitesmoke;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.main-div:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid rgb(0, 225, 255);
+}
